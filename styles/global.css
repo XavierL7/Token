@@ -1,0 +1,224 @@
+@import url(./tokens/_primitives.css);
+@import url(./tokens/_reset.css);
+@import url(./fonts/_montserrat.css);
+@import url(./tokens/_spacing.css);
+@import url(./tokens/_semantic.css);
+@import url(./tokens/_components.css);
+
+*,
+*::before,
+*::after {
+    font-family: ExtraBold;
+}
+
+/* One CSS per colour, borders, fonts, etc. - flat design */
+
+body {
+  margin: 0;
+  /* background-color: #ecd1bb; */
+}   
+
+p {
+  margin: 0;
+}
+
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--size-4);
+    /* padding: var(--size-4); */
+}
+
+.main-block__link {
+    display: block;
+    line-height: 0;
+}
+
+.header-layout__logo img {
+    min-height: 89px;
+    height: 89px;
+    width: auto;
+    display: block;
+}
+
+.main-block__text {
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    font-family: Regular;
+    font-size: medium;
+    /* padding: 0 20px;  */
+}
+
+.main-block img {
+    height: 256px;
+    width: 256px;
+}
+
+/* NOTE: Block, Element, Modifier (BEM) Methodology */
+
+/* NOTE: Card */
+
+.card {
+    border-radius: var(--size-1);
+    border-color: gray;
+    border-width: 1px;
+}
+
+/* NOTE: Form Card */
+
+.form-card {
+    background-color: white;
+    border-radius: var(--size-1);
+    color: var(--declaration-dark-grey);
+    width: 500px;
+    padding: var(--size-5) var(--size-6);
+}
+
+.form-card__tittle {
+    font-size: var(--size-5);
+    text-align: center;
+}
+
+.form-card__checkbox {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--size-3);
+    margin: var(--size-3n) 0 var(--size-3);
+}
+
+.form-card__checkbox input[type="checkbox"] {
+    accent-color: white;
+    margin-right: var(--size-1);
+}
+
+.form-card__checkbox a {
+    color: var(--declaration-dark-grey);
+    text-decoration: none;
+}
+
+.form-card__checkbox a:hover {
+    text-decoration: underline;
+}
+
+.form-card__button {
+    width: var(--pct-full);
+    height: var(--size-6);
+    background: var(--congregational-blue);
+    border: none;
+    outline: none;
+    /* border-radius: var(--size-1); */
+    box-shadow: 0 0 var(--size-2) rgba(255, 255, 255, .1);
+    cursor: pointer;
+    font-size: var(--size-3);
+    color: white;
+    font-family: ExtraBold;
+}
+
+.form-card__link {
+    font-size: var(--size-3);
+    text-align: center;
+    margin-top: var(--size-4);
+}
+
+.form-card__link p a Link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.form-card__link p a:hover {
+    text-decoration: underline;
+}
+
+/* NOTE: Input Block */
+
+.input-block {
+    position: relative;
+    width: var(--pct-full);
+    height: var(--size-6);
+    margin: var(--size-5) 0;
+}
+
+.input-block__field {
+    width: var(--pct-full);
+    height: var(--pct-full);
+    background: var(--declaration-ligth-grey);
+    border: none;
+    outline: none;
+    border-radius: var(--size-1);
+    font-size: var(--size-3);
+    color: var(--declaration-dark-grey);
+    padding: var(--size-4) var(--size-6) var(--size-4) var(--size-4);
+}
+
+.input-block__field::placeholder {
+    color: var(--declaration-dark-grey);
+}
+
+.input-block__field:focus {
+    /* NOTE: A11y Accesibility */
+    outline: var(--size-0) solid var(--declaration-dark-grey);
+}
+
+.input-block__icon {
+    position: absolute;
+    right: var(--size-4);
+    top: var(--pct-half);
+    transform: translateY(-50%);
+    font-size: var(--size-4);
+    opacity: .6;
+}
+
+/* NOTE: Responsive for tablet */
+@media (max-width: 768px) {
+    .header-layout {
+        min-height: 72px;
+    }
+
+    .main-block img {
+        height: 70dvw;
+        width: 70dvw;
+    }
+
+    .header-layout__logo {
+        padding: 8px 8px 8px 24px;
+        letter-spacing: 5px;
+    }
+
+    .header-layout__logo h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .header-layout {
+        min-height: 100px;
+    }
+
+    .main-block img {
+        height: 70dvw;
+        width: 70dvw;
+    }
+
+    .header-layout__logo {
+        padding: 6px 12px 5px 20px;
+        letter-spacing: 3px;
+    }
+
+    .header-layout__logo h1 {
+        font-size: 1.75rem;
+    }
+}

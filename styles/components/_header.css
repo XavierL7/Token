@@ -1,0 +1,22 @@
+@import url(../fonts/_rubik.css);
+
+/* NOTE: Header Layout */
+.header-layout {
+    position: sticky;
+    min-height: 55px;
+    width: var(--pct-full);
+    top: 0; 
+    /* #a65407 */
+    background-color: #141414;
+    color: #f5f3e6;
+    z-index: 1000;
+    flex-shrink: 0;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+}
+
+.header-layout__logo {
+    vertical-align: middle;
+    /* padding: 10px 10px 10px 40px; */
+}

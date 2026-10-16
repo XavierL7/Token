@@ -1,0 +1,65 @@
+/* NOTE: All colours where recollected form the original idlc website */
+
+:root {
+    
+    /* Primitives — raw palette */
+
+    --color-blue-500:   #046bd2;
+    /* --congregational-blue: #046bd2; */
+    --color-blue-700:   #045cb4; 
+    /* --congregational-dark-blue: #045CB4; */
+    --color-blue-900:   #02356b;
+
+    --color-orange-500: #ff8200;
+    /* --sunday-orange: #FF8200; */
+    --color-teal-500:   #34c2c6;
+    /* --campaign-turqueise: #34C2C6; */
+    --color-sky-300:    #6ec1e4;
+    /* --congress-ligth-blue: #6EC1E4; */
+    --color-gray-100:   #d8e4eb;
+    /* --declaration-ligth-grey: #D8E4EB; */
+    --color-gray-700:   #54595f;
+    /* --declaration-dark-grey: #54595f; */
+
+    --color-white:      #ffffff;
+    --color-neutral-50:  #f9f9f9;
+    --color-neutral-100: #f4f4f4;
+    --color-neutral-150: #f3f3f1;
+    --color-neutral-200: #ececec;
+    --color-neutral-400: #96959e;
+
+    --color-gris-700:    #3a4140;
+    --color-gris-800:    #2b3130;
+    --color-gris-900:    #212625;
+    --color-gris-950:    #121514;
+
+    --color-black-alpha-10: rgb(0 0 0 / 10%);
+    --color-black-alpha-40: rgb(0 0 0 / 40%);
+    --color-white-alpha-4:  rgb(255 255 255 / 4%);
+    --color-white-alpha-10: rgb(255 255 255 / 10%);
+    --color-white-alpha-40: rgb(255 255 255 / 40%);
+
+    --shadow-card:      0 12px 80px rgba(41, 30, 113, 0.12);
+    --shadow-card-dark: 0 12px 80px rgb(0 0 0 / 50%);
+
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-15: 15px;
+    --font-size-16: 16px;
+    --font-size-22: 22px;
+
+    --font-weight-500: 500;
+
+    --line-height-145: 1.45;
+
+    --letter-spacing-1: 1px;
+
+    --opacity-50: 0.5;
+    --opacity-60: 0.6;
+    --opacity-95: 0.95;
+
+    --duration-300: 0.3s;
+    --duration-450: 0.45s;
+    --ease-in-out: ease-in-out;
+
+}

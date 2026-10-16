@@ -1,0 +1,94 @@
+:root {   
+   
+   --color-brand-primary: var(--color-blue-500);
+   --color-brand-secondary: var(--color-blue-700);
+   --color-brand-tertiary: var(--color-blue-900);
+   --color-brand-ink: var(--color-gris-900);
+
+   --color-bg: var(--color-neutral-100);
+   --color-surface: var(--color-white);
+   --color-surface-muted: var(--color-neutral-200);
+   --color-surface-glass: var(--color-white-alpha-4);
+   --color-field: var(--color-neutral-150);
+   --color-text: var(--color-gris-900);
+   --color-text-muted: var(--color-neutral-400);
+
+   --color-text-on-brand: var(--color-neutral-50);
+   --color-border: var(--color-black-alpha-10);
+   --color-border-strong: var(--color-black-alpha-40);
+   --color-action: var(--color-gris-900);
+   --color-action-text: var(--color-neutral-50);
+   --color-accent: var(--color-blue-500);
+
+   --shadow-elevated: var(--shadow-card);
+
+   --spacing-hairline: var(--space-px);
+   --spacing-2xs: var(--space-1-5);
+   --spacing-xs: var(--space-2);
+   --spacing-sm: var(--space-2-5);
+   --spacing-md: var(--space-3);
+   --spacing-base: var(--space-3-5);
+   --spacing-lg: var(--space-4);
+   --spacing-xl: var(--space-6);
+   --spacing-2xl: var(--space-7);
+   --spacing-3xl: var(--space-8);
+
+   --size-card-width: var(--length-800);
+   --size-card-height: var(--length-520);
+   --size-control-height: var(--length-46);
+   --size-button-width: var(--length-160);
+   --size-form-row: var(--length-62);
+   --size-checkbox: var(--space-3-5);
+   --size-icon-sm: var(--space-5);
+   --size-icon-md: var(--space-6);
+   --size-check-top: var(--space-0-75);
+   --size-check-left: var(--space-0-625);
+   --size-check-width: var(--space-1-5);
+   --size-check-height: var(--space-0-75);
+
+   --border-width: var(--space-px);
+   --border-width-thick: var(--space-0-5);
+   --blur-glass: var(--space-1);
+
+   --radius-control: var(--radius-none);
+   --radius-surface: var(--radius-none);
+
+   --font-size-caption: var(--font-size-10);
+   --font-size-small: var(--font-size-12);
+   --font-size-body: var(--font-size-15);
+   --font-size-label: var(--font-size-16);
+   --font-size-heading: var(--font-size-22);
+   --font-weight-emphasis: var(--font-weight-500);
+   --line-height-relaxed: var(--line-height-145);
+   --letter-spacing-label: var(--letter-spacing-1);
+
+   --opacity-muted: var(--opacity-50);
+   --opacity-line: var(--opacity-60);
+   --opacity-soft: var(--opacity-95);
+
+   --motion-fast: var(--duration-300);
+   --motion-slow: var(--duration-450);
+   --motion-easing: var(--ease-in-out);
+
+}
+
+:root[data-theme="dark"] {
+
+   color-scheme: dark;
+
+   --color-bg: var(--color-gris-950);
+   --color-surface: var(--color-gris-900);
+   --color-surface-muted: var(--color-gris-800);
+   --color-field: var(--color-gris-700);
+   --color-text: var(--color-neutral-50);
+   --color-border: var(--color-white-alpha-10);
+   --color-border-strong: var(--color-white-alpha-40);
+   --color-action: var(--color-neutral-50);
+   --color-action-text: var(--color-gris-900);
+   --color-accent: var(--color-sky-300);
+
+   --shadow-elevated: var(--shadow-card-dark);
+
+
+   /*hola profe no de mas tarea porfa*/
+}
