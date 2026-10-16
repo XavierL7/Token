@@ -2,6 +2,7 @@
 @import url(./tokens/_reset.css);
 @import url(./fonts/_montserrat.css);
 @import url(./tokens/_spacing.css);
+@import url(./tokens/_radius.css) ;
 @import url(./tokens/_semantic.css);
 @import url(./tokens/_components.css);
 
