@@ -1,0 +1,31 @@
+:root {
+
+   --card-bg: var(--color-surface-muted);
+   --card-radius: var(--radius-surface);
+   --card-shadow: var(--shadow-elevated);
+   --card-width: var(--size-card-width);
+   --card-height: var(--size-card-height);
+
+   --hero-bg: var(--color-brand-primary);
+   --hero-text: var(--color-text-on-brand);
+   --hero-button-border: var(--color-text-on-brand);
+   --hero-button-bg: var(--color-surface-glass);
+   --hero-button-hover-bg: var(--color-text-on-brand);
+   --hero-button-hover-text: var(--color-brand-ink);
+
+   --button-bg: var(--color-action);
+   --button-text: var(--color-action-text);
+   --button-radius: var(--radius-control);
+   --button-width: var(--size-button-width);
+
+   --input-bg: var(--color-field);
+   --input-radius: var(--radius-control);
+   --input-border: var(--color-border);
+   --input-placeholder: var(--color-text-muted);
+   --control-height: var(--size-control-height);
+
+   --check-bg: var(--color-action);
+   --check-mark: var(--color-action-text);
+   --check-radius: var(--radius-control);
+
+}
